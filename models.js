@@ -3,24 +3,12 @@ var mongoose = require('mongoose'),
 
 var UserSchema = new Schema(
 {
-    "twitterID": String,
+    "facebookId": String,
     "token": String,
     "username": String,
     "displayName": String,
     "photo": String
-    // id: String,
-    // token: String,
-    // username: String,
-    // displayname: String
 });
 //);
 
-// exports.Message = Mongoose.model('User', UserSchema);
-// exports.models = mongoose.model('User', UserSchema);
 exports.User = mongoose.model('User', UserSchema);
-
-        // newUser.twitter.id = profile.id;
-        // newUser.twitter.token = profile.token;
-        // newUser.twitter.username = profile.username;
-        // newUser.twitter.displayName = profile.displayName;
-
