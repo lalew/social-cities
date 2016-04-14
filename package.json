@@ -1,36 +1,36 @@
 {
-  "name": "cogs121-sp16-ass1",
+  "name": "lawrence",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "COGS121A1",
+  "main": "models.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "mongod --dbpath dbpath --logpath log/mongod.log&",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/COGS121-awesome/social-cities.git"
+    "url": "git+https://github.com/lalew/cogs121-sp16-ass1.git"
   },
-  "author": "Serhiy Vorobyov",
+  "author": "lawrence",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/serhiyvorobyov/cogs121-sp16-ass1/issues"
+    "url": "https://github.com/lalew/cogs121-sp16-ass1/issues"
   },
-  "homepage": "https://github.com/serhiyvorobyov/cogs121-sp16-ass1#readme",
+  "homepage": "https://github.com/lalew/cogs121-sp16-ass1#readme",
   "dependencies": {
-    "body-parser": "1.15.0",
-    "connect-mongo": "1.1.0",
-    "cookie-parser": "1.4.1",
-    "dotenv": "2.0.0",
-    "express": "4.13.4",
-    "express-handlebars": "3.0.0",
-    "express-session": "1.13.0",
-    "method-override": "2.3.5",
-    "mongoose": "3.8.23",
-    "passport": "0.3.2",
-    "passport-facebook": "^2.1.0",
+    "body-parser": "^1.15.0",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
+    "method-override": "^2.3.5",
+    "mongodb": "^2.1.16",
+    "mongoose": "^4.4.12",
+    "passport": "^0.3.2",
+    "passport-strategy": "^1.0.0",
     "passport-twitter": "^1.0.4",
-    "socket.io": "1.4.5"
+    "socket.io": "^1.4.5"
   }
 }
